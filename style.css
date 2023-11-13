@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main{
+    margin-top: 30%;
+}
+
+.case {
+    
+}
+
+.display {
+    background-color: aquamarine;
+    height: 2rem;
+}
+
+.buttons {
+    max-width: 30%;
+}
+
+.buttondiv {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonbox, .buttonbox-diff, .buttonbox-equal{
+    background-color: aquamarine;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.buttonbox-diff {
+
+}
