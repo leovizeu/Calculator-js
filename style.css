@@ -52,7 +52,7 @@ body {
 
 .buttonbox:hover{
     cursor: pointer;
-    color: rgb(44, 103, 170);
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 inset;
 }
 
 .buttonbox-diff {
@@ -61,14 +61,17 @@ body {
 
 .buttonbox-diff:hover{
     cursor: pointer;
-    color: #dbf2fc
+    color: #dbf2fc;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 inset;
 }
 
 .buttonbox-equal {
-    background-color: cadetblue;
+    background-color: rgba(33, 149, 243, 0.384);
+    color: #65a8c5;
 }
 
 .buttonbox-equal:hover {
     cursor: pointer;
-    background-color: rgb(170, 229, 231);
+    color: #08181f;
+    box-shadow: 0 0 10px #c3e0f8, 0 0 40px #c3e0f8, 0 0 80px #c3e0f8 inset;
 }
