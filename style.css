@@ -3,7 +3,7 @@
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -28,12 +28,18 @@ body {
     height: 95px;
 }
 
+.dash {
+    height: 1px;
+    width: 90%;
+    background-color: #65a8c5;
+}
+
 .buttondiv {
     display: flex;
 }
 
 .buttonbox, .buttonbox-diff, .buttonbox-equal{
-    background-color: aquamarine;
+    color: rgb(22, 54, 90);
     height: 3rem;
     width: 3rem;
     display: flex;
@@ -44,6 +50,25 @@ body {
     margin-bottom: 5px;
 }
 
+.buttonbox:hover{
+    cursor: pointer;
+    color: rgb(44, 103, 170);
+}
+
 .buttonbox-diff {
-    background-color: crimson;
+    color: #65a8c5;
+}
+
+.buttonbox-diff:hover{
+    cursor: pointer;
+    color: #dbf2fc
+}
+
+.buttonbox-equal {
+    background-color: cadetblue;
+}
+
+.buttonbox-equal:hover {
+    cursor: pointer;
+    background-color: rgb(170, 229, 231);
 }
