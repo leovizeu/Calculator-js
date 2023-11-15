@@ -26,6 +26,14 @@ body {
     background-color: #00090f;
     border-radius: 15px;
     height: 95px;
+    margin-right: 15px;
+    color: #65a8c5;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: xx-large;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .dash {
