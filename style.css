@@ -8,17 +8,13 @@
 
 body {
     background-image: radial-gradient(#20404e, #08181f);
-    background-repeat: no-repeat;
-}
-
-.main{
 }
 
 .case {
     background-color: #00090f;
     max-width: 300px;
     border-radius: 5%;
-    margin-top: 25%;
+    margin-top: 15%;
     margin-bottom: 10%;
 }
 
